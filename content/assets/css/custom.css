@@ -1,0 +1,12 @@
+.content {
+  font-family: "Times New Roman", Times, serif;
+}
+
+Use PNG logo from assets
+.navbar-brand img {
+  content: url("/images/logo.png");
+  height: 40px;
+  width: auto;
+}
+
+

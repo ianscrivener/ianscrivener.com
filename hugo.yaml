@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: ianscrivener.com
 
 # import hextra as module
 module:
@@ -24,33 +24,41 @@ menu:
     - name: About
       pageRef: /about
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
-      weight: 3
+    # - name: Contact ↗
+    #   url: "https://github.com/imfing"
+    #   weight: 3
     - name: Search
       weight: 4
       params:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      url: "https://github.com/ianscrivener"
       params:
         icon: github
-    - name: Twitter
+    - name: LinkedIn
       weight: 6
-      url: "https://twitter.com/"
+      url: "https://linkedin.com/in/ianscrivener"
       params:
-        icon: x-twitter
+        icon: linkedin
 
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: images/logo.png
+      dark: images/logo.png
+      link: /
+      width: 32
+      height: 32
 
   footer:
-    displayCopyright: false
-    displayPoweredBy: true
+    displayCopyright: true
+    displayPoweredBy: false
 
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+
+
